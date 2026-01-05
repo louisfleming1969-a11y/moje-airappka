@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0b1220;
+  color: #f1f5f9;
+}
+
+.contact-details a {
+  color: #10b981;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}

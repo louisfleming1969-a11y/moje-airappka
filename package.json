@@ -1,0 +1,29 @@
+{
+  "name": "moje-airappka",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
+    "dev:fast": "set \"NEXT_PUBLIC_DISABLE_TYPECHECK=1\" && next dev --turbo",
+    "dev:sandbox": "npm --prefix sandbox run dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "10.12.16",
+    "lucide-react": "0.280.0",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.21",
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.32",
+    "tailwindcss": "4.0.10",
+    "typescript": "5.2.2"
+  }
+}
